@@ -1,0 +1,236 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #d0d0d0, #e0e0e0);
+    height: 100vh;
+}
+
+header {
+    background: #fff;
+    padding: 10px 0;
+    box-shadow: 0px 4px 2px -2px gray;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10 20px;
+}
+
+.menu-items {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+.menu ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+.menu li {
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #000;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #555;
+    margin: 0 15px;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.search {
+    padding: 10px;
+    border: 3px solid #ddd;
+    border-radius: 15px;
+    width: 185px;
+}
+                    /*primeira linha de podutos*/
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.product {
+    width: 200px;
+    border: 1px solid #000000;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.price {
+    color: #E44D26;
+    font-weight: bold;
+}
+        /*segunda linha de produtos*/
+.teniss {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+  
+}
+
+.tenis {
+    width: 200px;
+    border: 1px solid #000000;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.tenis img {
+    width: 100%;
+    border-radius: 10px;
+}
+                     /*terceira linha de produtos*/
+.DUNKS {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+  
+}
+
+.DUNKL {
+    width: 200px;
+    border: 1px solid #000000;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.DUNKL img {
+    width: 100%;
+    border-radius: 10px;
+}
+                     /*quarta linha de produtos*/
+                     .AGUA {
+                        display: flex;
+                        justify-content: center;
+                        gap: 20px;
+                        flex-wrap: wrap;
+                        padding: 20px;
+                      
+                    }
+                    
+                    .AGUAS {
+                        width: 200px;
+                        border: 1px solid #000000;
+                        padding: 10px;
+                        border-radius: 10px;
+                    }
+                    
+                    .AGUAS img {
+                        width: 100%;
+                        border-radius: 10px;
+                    }
+
+                    /*quinta linha de produtos*/
+
+                    .FIRE {
+                        display: flex;
+                        justify-content: center;
+                        gap: 20px;
+                        flex-wrap: wrap;
+                        padding: 20px;
+                      
+                    }
+                    
+                    .FIRES {
+                        width: 200px;
+                        border: 1px solid #000000;
+                        padding: 10px;
+                        border-radius: 10px;
+                    }
+                    
+                    .FIRES img {
+                        width: 100%;
+                        border-radius: 10px;
+                    }
+
+                    .Pag2 {
+                        list-style: none;
+                        display: flex;
+                        gap: 20px;
+                    }
+                    
+                    .Pag2 li {
+                        display: inline;
+                    }
+                    
+                    .Pag2 a {
+                        text-decoration: none;
+                        color: black;
+                        font-weight: bold;
+                    }
+
+                    @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+                    .logo {
+                        font-family: 'Russo One', sans-serif; /* Fonte semelhante */
+                        font-size: 24px;
+                        font-weight: bold;
+                        color: #333; /* Cor vermelha */
+                        text-transform: uppercase;
+                        letter-spacing: 2px;
+                        font-style: italic; /* Deixa inclinado */
+                    }
+                    
+                    .logo span {
+                        color: rgb(63, 56, 56);
+                    }
+ 
+                    .promoção {
+                        background: url('sua-imagem-de-oferta.jpg') no-repeat center center;
+                        background-size: cover;
+                        padding: 50px;
+                        color: white;
+                        font-size: 30px;
+                        font-weight: bold;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        text-align: center;
+                        height: 300px; /* Ajuste conforme necessário */
+                        width: 100%;
+                    }
+
+                    .desconto {
+                        background-color: red;
+                        color: white;
+                        font-weight: bold;
+                        padding: 5px 10px;
+                        border-radius: 5px;
+                    }
+
+                    a {
+                        color: #000000; /* Cor padrão do link */
+                        text-decoration: none; /* Remover o sublinhado */
+                        font-size: 18px;
+                        font-family: Arial, sans-serif;
+                    }
