@@ -190,17 +190,12 @@ nav {
                         font-weight: bold;
                     }
 
-                    @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
                     .logo {
-                        font-family: 'Russo One', sans-serif; /* Fonte semelhante */
-                        font-size: 24px;
-                        font-weight: bold;
-                        color: #333; /* Cor vermelha */
-                        text-transform: uppercase;
-                        letter-spacing: 2px;
-                        font-style: italic; /* Deixa inclinado */
+                        background-image: url('Aktusuki.png');
+                        background-size: contain;
+                        background-repeat: no-repeat;
                     }
-                    
+
                     .logo span {
                         color: rgb(63, 56, 56);
                     }
