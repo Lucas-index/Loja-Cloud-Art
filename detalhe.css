@@ -210,14 +210,15 @@ nav {
                         background-size: cover;
                         padding: 50px;
                         color: white;
-                        font-size: 30px;
+                        font-size: 50px;
                         font-weight: bold;
                         display: flex;
                         justify-content: center;
                         align-items: center;
                         text-align: center;
-                        height: 300px; /* Ajuste conforme necessário */
-                        width: 100%;
+                        object-fit: cover;
+                        height: 400px; /* Ajuste conforme necessário */
+                        width: 90%;
                     }
 
                     .desconto {
